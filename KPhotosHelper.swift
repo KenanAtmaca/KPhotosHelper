@@ -9,7 +9,7 @@
 import UIKit
 import Photos
 
-class KPhotoHelper {
+class KPhotosHelper {
     
     private lazy var manager = PHImageManager.default()
     private var requestOptions:PHImageRequestOptions!
