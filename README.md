@@ -1,10 +1,10 @@
-# KPhotoHelper
-İOS Photo Framework Helper Class
+# KPhotosHelper
+İOS Photos Framework Helper Class
 
 ### Usage
 
 ```Swift
-     var photo = KPhotoHelper()
+     var photo = KPhotosHelper()
 ```
 
 ##### Fetch Images in Camera roll
@@ -58,7 +58,7 @@
 - [X] Basic CollectionView Fetch Example
 
 ```Swift
-    var photo = KPhotoHelper()
+    var photo = KPhotosHelper()
    
     override func viewDidLoad() {
         super.viewDidLoad()
