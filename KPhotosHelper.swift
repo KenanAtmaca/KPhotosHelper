@@ -1,5 +1,5 @@
 //
-//  KPhotoHelper
+//  KPhotosHelper
 //
 //  Copyright © 2017 Kenan Atmaca. All rights reserved.
 //  kenanatmaca.com
