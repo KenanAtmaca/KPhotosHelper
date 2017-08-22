@@ -11,7 +11,6 @@ import Photos
 
 class KPhotoHelper {
     
-    
     private lazy var manager = PHImageManager.default()
     private var requestOptions:PHImageRequestOptions!
     private var fetchOptions:PHFetchOptions!
@@ -33,7 +32,6 @@ class KPhotoHelper {
         PHPhotoLibrary.requestAuthorization { (status) in
             ()
         }
-        
     }
     
     @discardableResult
@@ -52,7 +50,6 @@ class KPhotoHelper {
         
         fetchOptions = PHFetchOptions()
         fetchOptions.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: false)]
-        
         
         if let fetchResult:PHFetchResult = PHAsset.fetchAssets(with: .image, options: fetchOptions) as PHFetchResult! {
   
@@ -239,8 +236,7 @@ class KPhotoHelper {
     
     func requestAuthStatus() -> Bool {
      
-        return PHPhotoLibrary.authorizationStatus() == .authorized ? true : false
-        
+        return PHPhotoLibrary.authorizationStatus() == .authorized ? true : false 
     }
     
 }//
